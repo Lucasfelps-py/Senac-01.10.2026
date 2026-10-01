@@ -1,0 +1,152 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Gestão Escolar</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="cabecalho-conteudo">
+
+            <div class="logo-area">
+
+                <div class="logo">
+                    S
+                </div>
+
+                <div>
+                    <h1>Sistema de Gestão Escolar</h1>
+                    <p>Gerenciamento escolar</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="titulo-pagina">
+
+            <div>
+
+                <span class="subtitulo">
+                    SISTEMA
+                </span>
+
+                <h2>
+                    Gestão Escolar
+                </h2>
+
+                <p>
+                    Gerencie alunos, professores e turmas da escola.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="card">
+
+            <div class="titulo-secao">
+
+                <div class="icone-secao">
+                    A
+                </div>
+
+                <div>
+                    <h3>Alunos</h3>
+                    <p>Cadastre e consulte os alunos.</p>
+                </div>
+
+            </div>
+
+            <div class="area-botao">
+
+                <a href="/alunos" class="botao-principal">
+                    Acessar alunos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="card">
+
+            <div class="titulo-secao">
+
+                <div class="icone-secao">
+                    P
+                </div>
+
+                <div>
+                    <h3>Professores</h3>
+                    <p>Cadastre e consulte os professores.</p>
+                </div>
+
+            </div>
+
+            <div class="area-botao">
+
+                <a href="/professores" class="botao-principal">
+                    Acessar professores
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="card">
+
+            <div class="titulo-secao">
+
+                <div class="icone-secao">
+                    T
+                </div>
+
+                <div>
+                    <h3>Turmas</h3>
+                    <p>Cadastre e consulte as turmas.</p>
+                </div>
+
+            </div>
+
+            <div class="area-botao">
+
+                <a href="/turmas" class="botao-principal">
+                    Acessar turmas
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Sistema de Gestão Escolar © 2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
